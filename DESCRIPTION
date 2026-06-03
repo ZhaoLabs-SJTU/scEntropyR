@@ -1,0 +1,20 @@
+Package: scEntropyR
+Type: Package
+Title: Collection of methods for calculating cellular entropy in single
+        cells
+Version: 0.0.1
+Author: FangSheng
+Maintainer: FangSheng <fngseng12345@163.com>
+Description: Collection of methods for calculating cellular entropy in single cells
+License: What license is it under?
+Encoding: UTF-8
+Imports: Seurat, reshape2, stringr, ggplot2, gridExtra, Biobase, graph,
+        BioNet, entropy, cluster, grid, princurve, splines, mgcv,
+        lmtest, igraph, tidyverse, CytoTRACE, SCENT, AnnotationDbi,
+        org.Hs.eg.db, clusterProfiler, qlcMatrix, Matrix
+RoxygenNote: 7.3.2
+NeedsCompilation: no
+Packaged: 2026-06-03 02:44:57 UTC; fangsheng
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: R (>= 3.5.0)
